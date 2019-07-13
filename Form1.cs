@@ -1,9 +1,9 @@
-try
+            try
             {
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
 
-                mail.From = new MailAddress("vermakarmanjay@gmail.com");
+                mail.Fro            m = new MailAddress("vermakarmanjay@gmail.com");
                 mail.To.Add("karmanjayverma@gmail.com");
                 mail.Subject = "Test Mail";
                 mail.Body = "This is for testing SMTP mail from GMAIL";
