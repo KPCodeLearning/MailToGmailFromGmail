@@ -5,7 +5,8 @@
  Then
  Login your gmail from which we have to send and 
    Turn ON     
-   ## Allow less secure apps  on this link 
+   ## Allow less secure apps  on 
+   this link 
    #https://myaccount.google.com/lesssecureapps
   
  END
